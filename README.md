@@ -1,4 +1,4 @@
-#Fastify-TypeORM-TS-Template
+#Fastify-TS-SVC-REPO-DI
 This is a sample template project to quickly get you started with a Fastify project. It includes dependencies and Typings for all the necessary libraries. 
 
 ### Fastify
@@ -8,12 +8,10 @@ Enter Fastify. Fastify is a web framework highly focused on providing the best d
 
 ##### [Fastify Docs](https://www.fastify.io/docs/latest/)
 
-### TypeORM
-TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8). Its goal is to always support the latest JavaScript features and provide additional features that help you to develop any kind of application that uses databases - from small applications with a few tables to large scale enterprise applications with multiple databases.
+### Inversify
+It uses inversion of control example by using inversifyjs
 
-TypeORM supports both Active Record and Data Mapper patterns, unlike all other JavaScript ORMs currently in existence, which means you can write high quality, loosely coupled, scalable, maintainable applications the most productive way.
-
-##### [TypeORM Getting Started](https://typeorm.io/#/)
+##### [Inversify Wiki](https://github.com/inversify/InversifyJS/tree/master/wiki)
 
 #### Development
 The project is setup to auto build and update when code is changed. This is achieved using TSC watch, nodemon, and concurrency. To start the development server:
@@ -21,5 +19,3 @@ The project is setup to auto build and update when code is changed. This is achi
 ```npm run dev```
 
 A test endpoint is setup at `/ping`
-
-Please update the `ormconfig.json` as per your database and environment. A mysql default sample is added. Hence `mysql` database driver is in dependency but you can remove it and add another db provider.
